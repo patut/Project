@@ -1,0 +1,51 @@
+/* MAIN BODY */
+#mapcontainer{width:73%;height:585px;position:relative;overflow:hidden}
+#myLoc{position:absolute;right:40px;top:30px;color:#4d4d4d;font-size:10px;font-weight:bold;background-color:rgba(255,255,255,.8);border:4px solid rgba(0,0,0,.2);padding:3px 12px;text-transform:uppercase}
+#myLoc:hover{cursor:pointer}
+#map{width:100%;height:610px}
+
+#events{width:27%;height:585px;font-size:14px;color:#4d4d4d;overflow-x:hidden;overflow-y:scroll;background-color:#fff;text-transform:uppercase}
+#events > .header{padding:10px 20px;font-weight:bold;background-color:#565656;cursor:default;color:transparent;text-shadow:0px 2px 3px rgba(255,255,255,.6);-webkit-background-clip:text;-moz-background-clip:text;background-clip:text}
+#events > .header > .title{padding-top:2px}
+#events .mapevent{margin:0 7px 5px;padding:5px}
+#events .mapevent:hover{background-color:rgba(255,195,131,.4);cursor:pointer}
+#events .mapevent .over{overflow:hidden;height:46px;width:46px;border:1px solid lightgray;border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;-khtml-border-radius:25px}
+#events .mapevent > .image{height:48px;width:20%;margin-right:10px;overflow:hidden}
+#events .mapevent > .image > .over > img{min-height:100%;width:48px}
+#events .mapevent > .info{width:65%}
+#events .mapevent > .info > .title, #events .mapevent > .info > .address{font-size:12px;text-decoration:none;color:#8D8A8A;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#events .mapevent > .info > .address{text-transform:none}
+#events .mapevent > .info > .title{font-weight:bold}
+#events .mapevent > .info > .action{width:100%;height:18px}
+#events .mapevent > .info > .action > .likeevent, #events .mapevent > .info > .action > .bookmark{line-height:16px;font-size:10px;font-weight:bolder;margin-right:6px}
+.mapevent > .info > .action > .bookmark{margin-left:15px;}
+#events .mapevent > .info > .action > .likeevent:hover, #events .mapevent > .info > .action > .bookmark:hover{text-decoration:underline;cursor:pointer}
+#events .mapevent > .arrow img{width:10px;margin:12px 0 0 5px}
+#events .mapevent > .arrow img:hover{cursor:pointer}
+/*
+#filters{text-transform:none;font-weight:400;position:absolute;bottom:0;left:0;width:80%;height:40px;background-color:rgb(41,33,41)}
+#filters .filter{margin:4.2px;padding:4px;background-color:rgba(55,30,55,.55);color:rgb(245,245,245);font-size:11px;text-transform:uppercase;text-shadow:0 1px 0 rgba(0,0,0,.5);opacity:.5;text-decoration:none;transition:opacity .1s linear;-webkit-transition:opacity .1s linear;-moz-transition:opacity .1s linear}
+#filters .filter:hover{opacity:1;cursor:pointer}*/
+
+
+#filters{width:1000px;margin:40px auto 0}
+#filters > .event{width:30.8%;border:2px solid #abdabe;height:160px;margin:0 1% 2%;overflow:hidden;background-color:lightgray}/*width:325px*/
+#filters > .event > img{width:100%;min-height:100%}
+#filters > .event > .info{font-size:14px;position:absolute;bottom:0;left:0;width:100%;height:35px;background-color:rgba(0,0,0,.65);line-height:30px;padding-bottom:6px}
+#filters > .event > .info > img{width:30px;height:30px;margin:5px}
+#filters > .event > .info > .date{width:45px;text-align:center;line-height:42px;color:#17D4EE;font-weight:bolder}
+#filters > .event > .info > .title{width:212px;color:#fff;line-height:42px;font-weight:bolder;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#explore{width:250px}
+#heading{padding:0 15px 25px;text-transform:uppercase;font-weight:bold;background-color:#272727;cursor:default;color:transparent;text-shadow:0px 2px 3px rgba(255,255,255,.6);-webkit-background-clip:text;-moz-background-clip:text;background-clip:text}
+
+
+
+.infoBox{box-shadow:1px 3px 8px rgba(0,0,0,.45);background-color:rgb(249,249,249);padding:10px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px}
+.infoBox:hover{cursor:pointer}
+.infoBox .imgContainer{overflow:hidden;height:66px;width:66px;border:4px solid rgb(249,249,249);border-radius:40px;-moz-border-radius:40px;-webkit-border-radius:40px;-khtml-border-radius:40px;position:absolute;margin:-24px 0 0 -30px}
+.infoBox .imgContainer img{width:100%;min-height:100%}
+.infoBox .info{width:320px;margin-left:50px}
+.infoBox .title{font-size:16px;word-break:break-word;font-weight:bold;color:#5C5858;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.infoBox .location{font-size:13px;color:#8D8A8A;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.infoBox .type{color:#FA5000}
+.infoBox .description{max-height:108px;padding:5px 0}

@@ -1,0 +1,73 @@
+/* LOGIN / SIGNUP */
+#loginform{width:320px;position:relative;margin:100px auto 40px;background-color:#fff;-webkit-box-shadow:0 2px 7px -2px rgba(20, 40, 50, 0.12), 0 0px 0px 1px rgba(20, 40, 50, 0.03);-moz-box-shadow:0 2px 7px -2px rgba(20, 40, 50, 0.12), 0 0px 0px 1px rgba(20, 40, 50, 0.03);box-shadow:0 2px 7px -2px rgba(20, 40, 50, 0.12), 0 0px 0px 1px rgba(20, 40, 50, 0.03);background:#fcfcfc}
+#loginform > .field{width:90%;margin:0 auto 12px;height:40px;border:1px solid rgba(182,182,182,.4);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px}
+#loginform > .field input{height:34px;color:rgb(125,125,125);outline:none;border:0;background-color:transparent;width:94%;padding:3px 3%;font-family:'Helvetica Neue','Open Sans',Helvetica,Arial,sans-serif;font-size:13px}
+#loginform > .button{width:90%;margin:12px auto;text-align:center;font-size:14px;line-height:40px;box-shadow:0 1px 6px rgba(0,0,0,.15);border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-khtml-border-radius: 5px}
+#loginform > .button:hover{cursor:pointer;box-shadow:inset 0 1px 6px rgba(0,0,0,.15)}
+#loginform > .title{text-align:center;padding:15px 0;text-transform:uppercase;font-size:14px;font-weight:bold;background-color:#0A0A0A;cursor:default;color:transparent;text-shadow:0px 2px 3px rgba(255,255,255,.6);-webkit-background-clip:text;-moz-background-clip:text;background-clip:text}
+#vk,#fb{width:28px;height:28px;margin:11px 5px;overflow:hidden;border-radius: 22px;-moz-border-radius:22px;-webkit-border-radius:22px;-khtml-border-radius:22px}
+#vk img,#fb img{width:100%;min-height:100%}
+#vk img:hover,#fb img:hover{cursor:pointer}
+#social{height:50px;background-color:rgb(238,184,110);margin-top:15px}/*#5C3124*/
+#social .text{font-weight:300;float:left;cursor:default;text-align:center;text-shadow:0 1px 0 rgba(0,0,0,.2);color:#FDFDFD;width:100px;height:40px;line-height:40px;padding:5px 10px 5px 5px;font-size:15px}
+#centeredS{width:220px;margin:0 auto}
+
+/* SIGN UP BOX */
+#terms{font-size:10px;width: 227px;
+margin: 0 auto;}
+#terms input{margin-right:5px}
+#signupbox{width: 284px;
+padding-top: 20px;
+background-color: white;
+background-repeat: no-repeat;
+display: none;
+float: left;
+position: fixed;
+top: 50%;
+left: 50%;
+z-index: 99999;
+-webkit-box-shadow: 0px 0px 20px #000;
+-moz-box-shadow: 0px 0px 20px #000;
+box-shadow: 0px 0px 20px #000;}
+#signup-title {
+width: 95%;
+text-align: center;
+margin: 0 auto 15px;
+font-family: 'Helvetica Neue','Open Sans',Helvetica,Arial,sans-serif;
+font-size: 20px;
+color:#3A3026;
+}
+#signupbox > .button{width:90%;margin:12px auto;text-align:center;font-size:14px;line-height:40px;box-shadow:0 1px 6px rgba(0,0,0,.15);border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-khtml-border-radius: 5px}
+#signupbox > .button:hover{cursor:pointer;box-shadow:inset 0 1px 6px rgba(0,0,0,.15)}
+#signupbox > .field {
+outline: none;
+width: 240px;
+height: 25px;
+line-height: 15px;
+padding-left: 6px;
+margin: 0 17px 10px;
+font-family:'Helvetica Neue','Open Sans',Helvetica,Arial,sans-serif;color:rgb(125,125,125);
+font-size: 13px;
+}
+
+#sign_up_send {
+margin-bottom: 15px;
+}
+#signupbox #error {
+width: 250px;
+margin: 0 17px 15px;
+color: lightcoral;
+display: none;
+}
+#fadeBlock {
+display: none;
+background: #000;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+min-height: 100%;
+height: auto;
+opacity: .80;
+z-index: 9999;
+}

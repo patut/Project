@@ -1,0 +1,14 @@
+@font-face{font-family:CellosScript;src:url("../fonts/CellosScript.ttf") format('truetype')}
+@font-face{font-family:Helvetica Neue UltraLight;src:url(../fonts/HelveticaNeueCyr-UltraLight.otf) format('opentype')}
+*{margin:0;padding:0}
+.rel{position:relative}
+.fl_l{float:left}
+.fl_r{float:right}
+.clearfix{clear:both}
+
+html,body{height:100%;width:100%;min-width:1200px}
+body{background-color:rgb(255,89,24);color:#fff;font-size:13px;font-weight:300;font-family:'Helvetica Neue','Open Sans',Helvetica,Arial,sans-serif}
+#wrap{width:1000px;margin:15px auto 0}
+#underOne{margin-top:60px;max-width:400px;padding:15px}
+#title{font-size:26px;font-weight:400;margin-bottom:18px;line-height:26px;text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased}
+#desc{font-size:17px;text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased}

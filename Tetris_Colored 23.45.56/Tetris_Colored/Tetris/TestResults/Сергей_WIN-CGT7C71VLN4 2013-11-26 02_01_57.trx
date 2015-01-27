@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2a0df118-7dd6-4604-9f72-9b40443ae0bc" name="Сергей@WIN-CGT7C71VLN4 2013-11-26 02:01:57" runUser="WIN-CGT7C71VLN4\Сергей" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="fe4e69d4-ab92-48ba-a4a2-b6284180a4be">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Сергей_WIN-CGT7C71VLN4 2013-11-26 02_01_57">
+      <DeploymentItem filename="C:\Users\Сергей\Desktop\Tetris2\Tetris\Tetris\bin\Release\Tetris.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-26T02:01:57.3461506+04:00" queuing="2013-11-26T02:01:58.1721711+04:00" start="2013-11-26T02:01:58.3341768+04:00" finish="2013-11-26T02:01:59.0915307+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestStep" storage="c:\users\сергей\desktop\tetris2\tetris\test.tests\bin\release\test.tests.dll" id="ac32ed57-1348-83d8-3200-9f71f4f909c6">
+      <Execution id="af7a8668-2658-42ef-9c59-ef0a36282250" />
+      <TestMethod codeBase="C:/Users/Сергей/Desktop/Tetris2/Tetris/Test.Tests/bin/Release/Test.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Tests.UnitTest1, Test.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestStep" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ac32ed57-1348-83d8-3200-9f71f4f909c6" executionId="af7a8668-2658-42ef-9c59-ef0a36282250" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="af7a8668-2658-42ef-9c59-ef0a36282250" testId="ac32ed57-1348-83d8-3200-9f71f4f909c6" testName="TestStep" computerName="WIN-CGT7C71VLN4" duration="00:00:00.0323886" startTime="2013-11-26T02:01:58.4311671+04:00" endTime="2013-11-26T02:01:58.8563090+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af7a8668-2658-42ef-9c59-ef0a36282250">
+    </UnitTestResult>
+  </Results>
+</TestRun>

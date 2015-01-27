@@ -1,0 +1,16 @@
+D:\usr\src\_my\CSharp\Tetris\Tetris\bin\Release\Tetris.exe
+D:\usr\src\_my\CSharp\Tetris\Tetris\bin\Release\Tetris.pdb
+D:\usr\src\_my\CSharp\Tetris\Tetris\obj\Release\ResolveAssemblyReference.cache
+D:\usr\src\_my\CSharp\Tetris\Tetris\obj\Release\Tetris.AboutBox1.resources
+D:\usr\src\_my\CSharp\Tetris\Tetris\obj\Release\Tetris.Form1.resources
+D:\usr\src\_my\CSharp\Tetris\Tetris\obj\Release\Tetris.Properties.Resources.resources
+D:\usr\src\_my\CSharp\Tetris\Tetris\obj\Release\Tetris.csproj.GenerateResource.Cache
+D:\usr\src\_my\CSharp\Tetris\Tetris\obj\Release\Tetris.exe
+D:\usr\src\_my\CSharp\Tetris\Tetris\obj\Release\Tetris.pdb
+C:\Users\Ольга\Desktop\Tetris\Tetris\obj\Release\Tetris.exe
+C:\Users\Ольга\Desktop\Tetris\Tetris\obj\Release\Tetris.pdb
+C:\Users\Ольга\Desktop\Tetris\Tetris\bin\Release\Tetris.exe
+C:\Users\Ольга\Desktop\Tetris\Tetris\bin\Release\Tetris.pdb
+C:\Users\Ольга\Desktop\Tetris\Tetris\obj\Release\Tetris.Form1.resources
+C:\Users\Ольга\Desktop\Tetris\Tetris\obj\Release\Tetris.Properties.Resources.resources
+C:\Users\Ольга\Desktop\Tetris\Tetris\obj\Release\Tetris.csproj.GenerateResource.Cache

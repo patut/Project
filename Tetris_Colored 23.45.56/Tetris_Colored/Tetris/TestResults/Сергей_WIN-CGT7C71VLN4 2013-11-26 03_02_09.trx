@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9c062c31-a9a4-4056-94a9-f05e45c2135e" name="Сергей@WIN-CGT7C71VLN4 2013-11-26 03:02:09" runUser="WIN-CGT7C71VLN4\Сергей" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="fe4e69d4-ab92-48ba-a4a2-b6284180a4be">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Сергей_WIN-CGT7C71VLN4 2013-11-26 03_02_09">
+      <DeploymentItem filename="C:\Users\Сергей\Desktop\Tetris2\Tetris\Tetris\bin\Release\Tetris.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-26T03:02:09.6511733+04:00" queuing="2013-11-26T03:02:10.5439095+04:00" start="2013-11-26T03:02:10.7129636+04:00" finish="2013-11-26T03:02:11.3540264+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestFlash" storage="c:\users\сергей\desktop\tetris2\tetris\test.tests\bin\release\test.tests.dll" id="b35e5c20-cf74-cef2-816b-d9625b9d6317">
+      <Execution id="ab61fd3b-cf0b-4cdc-ac10-4a76b2cd91de" />
+      <TestMethod codeBase="C:/Users/Сергей/Desktop/Tetris2/Tetris/Test.Tests/bin/Release/Test.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Tests.UnitTest1, Test.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFlash" />
+    </UnitTest>
+    <UnitTest name="TestStep" storage="c:\users\сергей\desktop\tetris2\tetris\test.tests\bin\release\test.tests.dll" id="ac32ed57-1348-83d8-3200-9f71f4f909c6">
+      <Execution id="cf5b05cd-8a9e-44d6-8e9c-eb880c02a73c" />
+      <TestMethod codeBase="C:/Users/Сергей/Desktop/Tetris2/Tetris/Test.Tests/bin/Release/Test.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Tests.UnitTest1, Test.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestStep" />
+    </UnitTest>
+    <UnitTest name="TestTryFlash" storage="c:\users\сергей\desktop\tetris2\tetris\test.tests\bin\release\test.tests.dll" id="ebbe2692-1027-cabf-e4b1-b46c79729bdf">
+      <Execution id="389778e7-5ce0-4cee-b188-3bf312e94e09" />
+      <TestMethod codeBase="C:/Users/Сергей/Desktop/Tetris2/Tetris/Test.Tests/bin/Release/Test.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Tests.UnitTest1, Test.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTryFlash" />
+    </UnitTest>
+    <UnitTest name="TestRight" storage="c:\users\сергей\desktop\tetris2\tetris\test.tests\bin\release\test.tests.dll" id="04149d1a-e0a7-9c83-79c1-a1722519d5f7">
+      <Execution id="faa39006-fcc4-4fd9-aa52-21fa17bd6cd3" />
+      <TestMethod codeBase="C:/Users/Сергей/Desktop/Tetris2/Tetris/Test.Tests/bin/Release/Test.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Tests.UnitTest1, Test.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRight" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ac32ed57-1348-83d8-3200-9f71f4f909c6" executionId="cf5b05cd-8a9e-44d6-8e9c-eb880c02a73c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b35e5c20-cf74-cef2-816b-d9625b9d6317" executionId="ab61fd3b-cf0b-4cdc-ac10-4a76b2cd91de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebbe2692-1027-cabf-e4b1-b46c79729bdf" executionId="389778e7-5ce0-4cee-b188-3bf312e94e09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04149d1a-e0a7-9c83-79c1-a1722519d5f7" executionId="faa39006-fcc4-4fd9-aa52-21fa17bd6cd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf5b05cd-8a9e-44d6-8e9c-eb880c02a73c" testId="ac32ed57-1348-83d8-3200-9f71f4f909c6" testName="TestStep" computerName="WIN-CGT7C71VLN4" duration="00:00:00.0345990" startTime="2013-11-26T03:02:10.7998567+04:00" endTime="2013-11-26T03:02:11.1819633+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf5b05cd-8a9e-44d6-8e9c-eb880c02a73c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab61fd3b-cf0b-4cdc-ac10-4a76b2cd91de" testId="b35e5c20-cf74-cef2-816b-d9625b9d6317" testName="TestFlash" computerName="WIN-CGT7C71VLN4" duration="00:00:00.0003794" startTime="2013-11-26T03:02:11.1935290+04:00" endTime="2013-11-26T03:02:11.2035444+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab61fd3b-cf0b-4cdc-ac10-4a76b2cd91de">
+    </UnitTestResult>
+    <UnitTestResult executionId="389778e7-5ce0-4cee-b188-3bf312e94e09" testId="ebbe2692-1027-cabf-e4b1-b46c79729bdf" testName="TestTryFlash" computerName="WIN-CGT7C71VLN4" duration="00:00:00.0014941" startTime="2013-11-26T03:02:11.2119933+04:00" endTime="2013-11-26T03:02:11.2213234+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="389778e7-5ce0-4cee-b188-3bf312e94e09">
+    </UnitTestResult>
+    <UnitTestResult executionId="faa39006-fcc4-4fd9-aa52-21fa17bd6cd3" testId="04149d1a-e0a7-9c83-79c1-a1722519d5f7" testName="TestRight" computerName="WIN-CGT7C71VLN4" duration="00:00:00.0013443" startTime="2013-11-26T03:02:11.2305467+04:00" endTime="2013-11-26T03:02:11.2404813+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="faa39006-fcc4-4fd9-aa52-21fa17bd6cd3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
